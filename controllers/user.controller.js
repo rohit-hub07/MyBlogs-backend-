@@ -2,6 +2,10 @@ import User from "../models/user.model.js";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import Post from "../models/post.model.js";
+import dotenv from "dotenv";
+
+dotenv.config();
+
 
 export const registerController = async (req, res) => {
   const { name, email, password, role } = req.body;
