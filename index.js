@@ -12,8 +12,8 @@ const app = express();
 
 const corsOptions = {
   origin: [
-    "https://my-blogs-frontend.vercel.app",
     "https://myblogs-backend-91ie.onrender.com",
+    "https://my-blogs-frontend.vercel.app",
     "http://localhost:8000",
     "http://localhost:5173",
   ],
